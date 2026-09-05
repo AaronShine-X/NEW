@@ -1,0 +1,30 @@
+{
+  "workbook": {
+    "file_id": "YOUR_TENCENT_DOCS_WORKBOOK_ID",
+    "name": "YOUR_PRIVATE_WORKBOOK_NAME"
+  },
+  "sheets": {
+    "inventory": {
+      "sheet_id": "YOUR_INVENTORY_SHEET_ID",
+      "name": "YOUR_PRIVATE_INVENTORY_SHEET_NAME",
+      "available_stock_column": "J"
+    },
+    "production_receipt": {
+      "sheet_id": "YOUR_PRODUCTION_RECEIPT_SHEET_ID",
+      "name": "YOUR_PRIVATE_PRODUCTION_RECEIPT_SHEET_NAME",
+      "unreceived_column": "G",
+      "formula_owned_columns": [
+        "G"
+      ]
+    },
+    "legacy_production": {
+      "sheet_id": "YOUR_LEGACY_PRODUCTION_SHEET_ID",
+      "name": "YOUR_PRIVATE_LEGACY_PRODUCTION_SHEET_NAME",
+      "optional": true
+    },
+    "cost": {
+      "sheet_id": "YOUR_COST_TABLE_SHEET_ID",
+      "name": "YOUR_PRIVATE_COST_TABLE_SHEET_NAME"
+    }
+  }
+}

@@ -1,0 +1,7 @@
+*.bak
+*.bak-*
+.env
+.env.*
+config/*.local.json
+__pycache__/
+*.py[cod]
