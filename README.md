@@ -257,3 +257,13 @@ python scripts/supply_project_pricing.py --cost 52 --daily-orders 500 --return-r
 ## 项目名称
 
 `电商库存运营助手` 概括的是这个 skill 的实际作用：围绕电商库存，把需求、库存、做货、成本和报价连接成一套可重复执行的运营流程。
+
+## Related Skill
+
+`jushuitan-order-monitor/SKILL.md` is a separate Microsoft Edge and Jushuitan skill for exception-order checks, review submission, and configured supplier-amount monitoring. Keep product names, supplier names, bookmarks, thresholds, and account details in the ignored local configuration; do not commit real business data. Install it separately under `~/.codex/skills/jushuitan-order-monitor/`.
+
+---
+
+## 相关 Skill
+
+`jushuitan-order-monitor/SKILL.md` 是独立的 Microsoft Edge 聚水潭 Skill，用于异常订单检查、审核推送和指定供应商可用金额监控。商品名、供应商名、书签、阈值和账号信息应保存在 Git 忽略的本地配置中，不要提交真实业务数据。需要使用时，单独安装到 `~/.codex/skills/jushuitan-order-monitor/`。
