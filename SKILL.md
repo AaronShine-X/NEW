@@ -80,3 +80,7 @@ After a write, report:
 - Values read back from Tencent Docs.
 - Summary/formula rows checked.
 - Any unresolved `需确认` items.
+
+## Cross-skill routing
+
+- Jushuitan exception-order handling, review submission, and supplier-amount monitoring belong to the separate `jushuitan-order-monitor` skill; do not execute them inside this Xiaohongshu workflow.
