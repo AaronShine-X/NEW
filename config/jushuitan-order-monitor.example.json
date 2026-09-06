@@ -1,0 +1,8 @@
+{
+  "bookmark_name": "ORDER_MANAGEMENT_BOOKMARK",
+  "product_name": "PRODUCT_NAME",
+  "supplier_name": "SUPPLIER_NAME",
+  "alert_threshold": 500,
+  "alert_message": "金额不足，需要充值",
+  "timezone": "Asia/Shanghai"
+}
